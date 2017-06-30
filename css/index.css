@@ -1,0 +1,108 @@
+body, html{
+     height: 100%;
+ 	background-repeat: no-repeat;
+ 	background-color: #d3d3d3;
+ 	font-family: 'Oxygen', sans-serif;
+}
+
+.main{
+ 	margin-top: 70px;
+}
+
+h1.title { 
+	font-size: 50px;
+	font-family: 'Sofia', cursive; 
+	font-weight: 400; 
+}
+
+#logo_img
+{
+	height:100px;
+	width:250px;
+	margin-top:-50px;
+}
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+	height:25px;
+	text-align:centre;
+}
+
+.main-login{
+ 	background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+	
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 250px;
+    padding: 40px 40px;
+	height:330px;
+
+}
+
+.login-button{
+    margin-top: 5px;
+    height: 35px;
+	width:100px;
+    padding-top: 3px;
+    font-weight: bold;
+	margin-left:80px;
+
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+	height:80px;
+	background-color:white;
+	margin: 0 auto;
+	margin-top:15px;
+	margin-bottom:40px;
+    max-width: 330px;
+}
+
+/* Login form css */
+.main-small{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 250px;
+    padding: 40px 40px;
+	height:270px;
+
+}
+#h1
+{
+	margin-left:590px;
+	font-size:35px;
+}
